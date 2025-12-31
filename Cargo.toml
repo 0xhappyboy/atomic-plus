@@ -1,6 +1,6 @@
 [package]
 name = "atomic-plus"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["happyboy <superhappyboy1995@gmail.com>"]
 description = "type extensions for the atomic standard library."
