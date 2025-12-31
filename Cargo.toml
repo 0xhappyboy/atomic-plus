@@ -1,0 +1,13 @@
+[package]
+name = "atomic-plus"
+version = "0.1.0"
+edition = "2024"
+authors = ["happyboy <superhappyboy1995@gmail.com>"]
+description = "type extensions for the atomic standard library."
+keywords = ["atomic", "async"]
+license = "Apache2.0"
+readme = "README.md"
+repository = "https://github.com/0xhappyboy/atomic-plus"
+
+[dependencies]
+tokio = { version = "1.4.0", features = ["rt", "rt-multi-thread", "macros"] }
